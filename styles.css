@@ -125,7 +125,7 @@ a:hover, a:hover span {
   }
   
   .hi {
-    top: 160px;
+    top: 140px;
     text-align: center;
     position: absolute;
     left: 0;
@@ -141,7 +141,7 @@ a:hover, a:hover span {
   }
   
   .intro {
-    top: 230px;
+    top: 210px;
     position: absolute;
     max-width: 300px;
     left: 0;
@@ -154,5 +154,29 @@ a:hover, a:hover span {
     line-height: 21px;
     letter-spacing: 0.12em;
     color: #000000;
+  }
+
+  .social-links {
+    display: flex;
+    list-style: none;
+    margin: 1rem 2rem 1rem 0;
+    position: absolute;
+    right: 0;
+  }
+
+  .social-links li{
+    margin: 0 10px;
+  }
+
+  .logo {
+    position: relative;
+    align-items: left;
+    left: 30px;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  
+  .logo img{
+    width: 40%;
+    list-style: none;
   }
 }
