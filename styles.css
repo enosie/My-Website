@@ -6,6 +6,12 @@
   overflow: hidden;
 }
 
+.message {
+  margin-top: 300px;
+  text-align: center;
+  
+}
+
 .nav {
   width: 100%;
   height: auto;
@@ -31,6 +37,18 @@ p {
   font-size: 17px;
   line-height: 25px;
   letter-spacing: 0.12em;
+}
+
+.pfp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  
+}
+
+.mypfp {
+  top: 170px;
 }
 
 .intro {
