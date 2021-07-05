@@ -1,200 +1,194 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-* {
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+
+html,
+body {
+  background-color: #ffffff;
+  overflow-x: initial !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: "IBM Plex Mono", monospace;
+  scroll-behavior: smooth;
 }
 
-.message {
-  margin-top: 300px;
-  text-align: center;
-  
-}
-
-.nav {
-  width: 100%;
-  height: auto;
-  margin: -1.5rem 0 0 0;
-}
-
-
-p {
-  text-align: center;
-}
-
-.hi {
-  top: 170px;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  max-width: 200px;
-  color: #000000;
-  font-family: Lato;
-  font-style: italic;
-  font-size: 17px;
-  line-height: 25px;
-  letter-spacing: 0.12em;
-}
-
-.pfp{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-  
-}
-
-.mypfp {
-  top: 170px;
-}
-
-.intro {
-  top: 260px;
-  position: absolute;
-  max-width: 400px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 21px;
-  letter-spacing: 0.12em;
-  color: #000000;
-}
-
-.footer {
-  background-color: #FFFBF5;
-  height: auto;
-  margin: auto;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-}
-
-.social-links {
-  display: flex;
+ul {
   list-style: none;
-  margin: 1rem 5rem 1rem 0;
-  position: absolute;
-  right: 0;
 }
 
-.social-links li{
-  margin: 0 20px;
-}
-
-.social-links a {
+a {
   text-decoration: none;
-  color: rgb(85, 85, 85);
 }
 
-.social-links a:hover {
-  color: rgb(26, 24, 24);
+#main {
+  width: 100%;
+  position: relative;
 }
 
-.social-links a i{
-  font-size: 1.5rem;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff;
 }
 
 .logo {
-  position: relative;
-  align-items: left;
-  left: 100px;
-  margin: 0.5rem 0 0.5rem 0;
+  width: 200px;
 }
 
-.logo img{
-  width: 50%;
-  list-style: none;
-}
-
-.stuff {
-  list-style: none;
+nav ul {
   display: flex;
+  padding-inline-start: 0px;
+}
+
+nav ul li a {
+  line-height: 90px;
+  margin: 3px;
+  padding: 0px 35px;
+  display: flex;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: #555555;
+  
+}
+
+nav ul li a:hover {
+  color: #e8b4d2;
+  transition: all ease 0.1s;
+  font-style: italic;
+}
+
+.art {
+  margin-bottom: 30px;
+}
+
+.art img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artpic {
+  margin-top: 8rem;
+  width: 230px;
+  opacity: 80%;
+}
+
+.artarrow {
+  margin-top: 20px;
+  width: 15px;
+}
+
+.about {
   position: relative;
+  width: 600px;
+  font-family: IBM Plex Mono, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #555555;
+  margin: auto;
 }
 
-span{
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: black;
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  animation: typing 3s steps(15, end), blink .45s step-end infinite;
+  white-space: nowrap;
+  font-weight: 700;
+  border-right: 3px solid #C6C2E8;
+  box-sizing: border-box;
 }
 
-a:hover, a:hover span {
-  color: #e99565;
-  text-decoration-color: #e99565;
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 35% 
+  }
 }
 
-/* media queries  */
-@media only screen and (max-width: 800px) {
-  .nav {
-    width: 250%;
-    height: auto;
-    margin: 0 0 0 -300px;
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: #C6C2E8; 
+  }
+}
+
+.bio {
+  font-family: poppins, monospace;
+  font-size: 0.8em;
+}
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    width: 110px;
   }
 
-  p {
-    text-align: center;
+  nav ul {
+    display: flex;
+    padding-inline-start: 0px;
   }
-  
-  .hi {
-    top: 140px;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-width: 200px;
-    color: #000000;
-    font-family: Lato;
+
+  nav ul li a {
+    line-height: 50px;
+    margin: 2px;
+    padding: 0px 5px;
+    display: flex;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #555555;
+  }
+
+  nav ul li a:hover {
+    color: #e8b4d2;
+    transition: all ease 0.1s;
     font-style: italic;
-    font-size: 13px;
-    line-height: 20px;
-    letter-spacing: 0.12em;
+  }
+
+  .art {
+    margin-bottom: 20px;
   }
   
-  .intro {
-    top: 210px;
-    position: absolute;
-    max-width: 350px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    font-family: Lato;
+  .art img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .artpic {
+    margin-top: 8rem;
+    width: 230px;
+    opacity: 80%;
+  }
+  
+  .artarrow {
+    margin-top: 20px;
+    width: 15px;
+  }
+
+  .about {
+    position: relative;
+    width: 300px;
+    font-family: IBM Plex Mono, monospace;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: center;
     letter-spacing: 0.12em;
-    color: #000000;
-  }
-
-  .social-links {
-    display: flex;
-    list-style: none;
-    margin: 1rem 2rem 1rem 0;
-    position: absolute;
-    right: 0;
-  }
-
-  .social-links li{
-    margin: 0 10px;
-  }
-
-  .logo {
-    position: relative;
-    align-items: left;
-    left: 30px;
-    margin: 0.5rem 0 0.5rem 0;
-  }
-  
-  .logo img{
-    width: 40%;
-    list-style: none;
+    color: #555555;
+    margin: auto;
   }
 }
