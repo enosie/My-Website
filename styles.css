@@ -131,7 +131,7 @@ nav ul li a:hover {
   font-size: 0.8em;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   .logo {
     width: 100px;
   }
@@ -188,6 +188,81 @@ nav ul li a:hover {
     line-height: 25px;
     text-align: center;
     letter-spacing: 0.12em;
+    color: #555555;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1400px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+  nav ul {
+    display: flex;
+    padding-inline-start: 0px;
+  }
+  
+  nav ul li a {
+    line-height: 80px;
+    margin: 3px;
+    padding: 0px 16px;
+    display: flex;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: #555555;
+    
+  }
+  
+  nav ul li a:hover {
+    color: #e8b4d2;
+    transition: all ease 0.1s;
+    font-style: italic;
+  }
+  
+  .art {
+    margin-bottom: 30px;
+  }
+  
+  .art img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .artpic {
+    margin-top: 10rem;
+    width: 230px;
+    opacity: 80%;
+  }
+  
+  .artarrow {
+    margin-top: 20px;
+    width: 15px;
+  }
+  
+  .about {
+    position: relative;
+    width: 600px;
+    font-family: IBM Plex Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.15em;
     color: #555555;
     margin: auto;
   }
