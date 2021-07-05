@@ -80,7 +80,7 @@ nav ul li a:hover {
 }
 
 .artarrow {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 15px;
 }
 
@@ -191,9 +191,27 @@ nav ul li a:hover {
     color: #555555;
     margin: auto;
   }
+
+  @keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+  }
+  
+  @keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #C6C2E8; 
+    }
+  }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1400px) {
+@media only screen and (min-width: 701px) and (max-width: 1100px) {
   nav {
     display: flex;
     justify-content: space-around;
