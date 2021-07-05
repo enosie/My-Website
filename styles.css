@@ -168,7 +168,7 @@ nav ul li a:hover {
   }
   
   .artpic {
-    margin-top: 8rem;
+    margin-top: 6rem;
     width: 230px;
     opacity: 80%;
   }
@@ -197,7 +197,7 @@ nav ul li a:hover {
         width: 0% 
     }
     to { 
-        width: 85% 
+        width: 65% 
     }
   }
   
