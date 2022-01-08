@@ -1,5 +1,7 @@
+/*previous version style of site*/
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 
 html,
 body {
@@ -24,7 +26,6 @@ a {
   position: relative;
 }
 
-/*nav*/
 nav {
   display: flex;
   justify-content: space-around;
@@ -38,7 +39,7 @@ nav {
 }
 
 .logo {
-  width: 170px;
+  width: 200px;
 }
 
 nav ul {
@@ -47,7 +48,7 @@ nav ul {
 }
 
 nav ul li a {
-  line-height: 50px;
+  line-height: 90px;
   margin: 3px;
   padding: 0px 35px;
   display: flex;
@@ -61,10 +62,7 @@ nav ul li a:hover {
   color: #e8b4d2;
   transition: all ease 0.1s;
   font-style: italic;
-  text-decoration-line: underline;
-  text-underline-offset: 5px;
 }
-
 
 .art {
   margin-bottom: 30px;
@@ -78,7 +76,8 @@ nav ul li a:hover {
 
 .artpic {
   margin-top: 8rem;
-  width: 290px;
+  width: 230px;
+  opacity: 80%;
 }
 
 .artarrow {
@@ -115,7 +114,7 @@ nav ul li a:hover {
       width: 0% 
   }
   to { 
-      width: 19% 
+      width: 35% 
   }
 }
 
@@ -132,7 +131,6 @@ nav ul li a:hover {
   font-family: poppins, monospace;
   font-size: 0.8em;
 }
-
 
 @media only screen and (max-width: 700px) {
   .logo {
