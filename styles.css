@@ -173,7 +173,6 @@ nav ul li a:hover {
   .artpic {
     margin-top: 6rem;
     width: 230px;
-    opacity: 80%;
   }
   
   .artarrow {
@@ -183,7 +182,7 @@ nav ul li a:hover {
 
   .about {
     position: relative;
-    width: 300px;
+    width: 350px;
     font-family: IBM Plex Mono, monospace;
     font-style: normal;
     font-weight: normal;
@@ -200,7 +199,7 @@ nav ul li a:hover {
         width: 0% 
     }
     to { 
-        width: 65% 
+        width: 20% 
     }
   }
   
@@ -266,7 +265,6 @@ nav ul li a:hover {
   .artpic {
     margin-top: 10rem;
     width: 230px;
-    opacity: 80%;
   }
   
   .artarrow {
