@@ -17,6 +17,13 @@ ul {
 
 a {
   text-decoration: none;
+  color: #555555;
+}
+
+a:hover {
+  color: #e8b4d2;
+  transition: all ease 0.1s;
+  font-style: italic;
 }
 
 #main {
@@ -131,6 +138,7 @@ nav ul li a:hover {
 .bio {
   font-family: poppins, monospace;
   font-size: 0.8em;
+  margin-bottom: 100px;
 }
 
 
