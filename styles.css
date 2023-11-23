@@ -131,14 +131,14 @@ nav ul li a:hover {
       border-color: transparent 
   }
   50% { 
-      border-color: #C6C2E8; 
+      border-color: #ffc0cb; 
   }
 }
 
 .bio {
   font-family: poppins, monospace;
   font-size: 0.8em;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 
@@ -216,7 +216,7 @@ nav ul li a:hover {
         border-color: transparent 
     }
     50% { 
-        border-color: #C6C2E8; 
+        border-color: #ffc0cb; 
     }
   }
 }
